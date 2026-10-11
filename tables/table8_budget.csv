@@ -1,0 +1,11 @@
+line item,one_arm_usd,two_arm_usd,note,marginal_usd
+"Oligo pool synthesis (9,631 oligos)",4500,4500,one pool serves both arms,0
+Library cloning + representation QC,2000,2000,"one cloning, shared",0
+Lentivirus production + titration,2000,3000,more virus for 2 backgrounds,1000
+Cell culture to transduction,5000,10000,350M cells per arm,5000
+Puromycin selection + expansion,1500,3000,,1500
+Differentiation induction (14-21 d),1500,3000,,1500
+FACS instrument time,1000,2000,~22 min/rep/arm,1000
+gDNA extraction + PCR + library prep,2000,4000,17 vs 34 samples,2000
+Sequencing,3000,6000,82M vs 164M reads,3000
+TOTAL,22500,37500,,15000

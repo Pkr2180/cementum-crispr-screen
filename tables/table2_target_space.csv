@@ -1,0 +1,14 @@
+tier,module,genes,guides,guides_per_gene
+B,PDL_fiber_identity,43,409,9.51
+B,Root_HERS,43,407,9.47
+B,BMP_TGFb,42,403,9.6
+B,tooth_programme_added,39,376,9.64
+B,Wnt,38,369,9.71
+B,Growth_factor_RTK,35,332,9.49
+B,Remodeling,30,289,9.63
+B,Epigenetic,28,264,9.43
+B,PPi_Pi_axis,24,231,9.62
+B,Mechano_hypoxia,22,211,9.59
+B,SIBLING_mineral,22,199,9.05
+B,Inflammatory,14,129,9.21
+C,kinome,481,4508,9.37

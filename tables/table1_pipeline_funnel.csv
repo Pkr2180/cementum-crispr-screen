@@ -1,0 +1,10 @@
+step,guides,genes
+Target genes selected (BioMart + curation),,829
+Genes with a RefSeq transcript model,,828
+"Candidate protospacers after CDS window, constitutive exon, sequence filters",139144,826
+Stage-1 pool carried to off-target screening (top 20 per gene),16515,826
+"Passing <=2 mismatch filters (unique locus, no 1-mm site, no coding CFD>0.2)",13198,822
+Passing the assembled-oligo restriction-site check,13057,822
+Deeply screened at <=3 mismatches,9420,826
+Passing <=3 mismatch coding filter (max coding CFD <= 0.5),9081,826
+"Final targeting guides selected (<=10 per gene, >=2 exons)",7751,822

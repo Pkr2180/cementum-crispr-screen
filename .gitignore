@@ -1,0 +1,15 @@
+__pycache__/
+*.pyc
+*.pyo
+.ipynb_checkpoints/
+.DS_Store
+Thumbs.db
+genome/
+anno/
+cfd/
+handoff/
+*.npy
+*.npz
+*.parquet
+~$*.docx
+.venv/

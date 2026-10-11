@@ -1,0 +1,13 @@
+design element,initially proposed,final design,why it changed
+Readout,"ALPL/IBSP ratio sort, single PDL line","same sort + parallel osteoblast arm, differential calling",tooth vs bone AUROC 0.582 — not separable in one line
+Primary anchor,transcriptional marker ratio,PPi/Pi axis (ALPL activity / extracellular PPi),matrix markers are shared with bone
+Library scope,genome-wide primary + focused secondary,"focused only, 9,255 oligos",genome-wide decile sort needs 2.8B cells
+Guides per gene,8,10 (mean 9.4 realised),8x3 gives 57% power; 10x4 gives 80%
+Replicates,3,4,same
+Representation,500-1000x,200x,1/cells negligible against phi=0.30
+Controls,"1,000 NTC + 500 assorted","1,000 verified NTC + 254 essential + 250 olfactory",NTC must be verified at <=2 mm; <=3 mm is unattainable
+Total reads,~500M (genome-wide),83M per arm,smaller library
+On-target models,RS3 + DeepSpCas9 + DeepHF,RS3 (2 scaffolds) + Doench 2014,"deep models need R/basilisk, unavailable on this host"
+Off-target budget,"<=3 mm, NGG/NAG/NGA","<=3 mm, NGG/NAG/NGA (delivered)",unchanged
+Hit selection metric,aggregate CFD specificity,max coding-exon CFD,93% of sites sit at 3 mm; aggregate CFD does not discriminate
+L4 foundation model,fine-tuned GEARS/scGPT on screen output,gated on adding a Perturb-seq arm,sorted screens yield no perturbation-transcriptome pairs

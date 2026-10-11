@@ -1,0 +1,6 @@
+pass,mismatch_budget,guides_screened,runtime_min,total_sites,sites_0mm,sites_1mm,sites_2mm,sites_3mm
+Pass A,<=2,16515,12.7,111591.0,17497.0,5791.0,88303.0,0.0
+Pass B,<=3,9420,82.0,514765.0,10393.0,1738.0,32424.0,470210.0
+Controls,<=3,1408,26.0,108611.0,,,,
+NTC screen,<=2,9000,9.0,,,,,0.0
+Rebalance,<=3,858,26.0,59292.0,905.0,375.0,4629.0,53383.0

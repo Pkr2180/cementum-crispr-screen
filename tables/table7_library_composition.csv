@@ -1,0 +1,6 @@
+class,oligos,genes,mean_guides_per_gene,genes_at_10,median_cfd_spec_le3
+Targeting,8127,861,9.44,576.0,0.277
+Non-targeting control,1000,0,,,1.0
+Pan-essential control,254,52,,,0.302
+Olfactory control,250,97,,,0.227
+TOTAL,9631,861,,,

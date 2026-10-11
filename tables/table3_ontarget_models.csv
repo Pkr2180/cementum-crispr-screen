@@ -1,0 +1,4 @@
+model,family,median_score,spearman_vs_RS3_Hsu
+Rule Set 3 (Hsu2013 tracr),"gradient-boosted, transcript-aware",0.114,1.0
+Rule Set 3 (Chen2013 tracr),"same model, improved scaffold",0.044,0.758
+Doench 2014 Rule Set 1,"logistic, independent training set",12.77,0.513
